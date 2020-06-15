@@ -1,0 +1,94 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+h1 {
+    color: rgba(175, 175, 175, 0.65);
+    font-size: 100px;
+    display: inline-block;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.parent {
+    text-align: center;
+}
+
+h2 {
+    display: inline-block
+    margin-left: 40%;
+    font-size: 50px;
+    color: rgba(175, 175, 175, 0.65);
+    font-family: 'Montserrat', sans-serif;
+}
+
+.form {
+    margin-top: 160px;
+    margin-left: 23%;
+    float: left;
+}
+
+.input-text {
+    font-size: 28px;
+    font-family: 'Montserrat', sans-serif;
+    float: left;
+}
+
+.prompt {
+    margin-top: 3px;
+    margin-right:10px;
+    margin-left: 30px;
+    height: 250px;
+    font-size: 24px;
+    border: 1px solid rgba(0, 78, 255, 0.3);
+    background-color: rgba(54, 54, 54, 0.9);
+}
+
+.btn-submit {
+    width: 120px;
+    height: 40px;
+    border-radius: 30px;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 800;
+    margin-left: 20px;
+    border: 1px solid rgba(0, 78, 255, 0.3);
+    transition: background-color 1s;
+     background-color: rgba(54, 54, 54, 0.9)
+}
+
+.btn-submit:hover {
+    background-color: rgba(42, 53, 78, 0.7);
+    opacity: 80%;
+}
+
+header {
+    margin-top: 0;
+    background-image: linear-gradient(rgba(0, 0, 0, 0.8), rgba(0, 0, 0, 0.8)), url(background3.jpg);
+    background-size: cover;
+    background-position: center;
+    height: 100vh;
+}
+
+.text-area {
+    margin-top: 160px;
+    margin-right:10px;
+    margin-left: 30px;
+    height: 250px;
+    font-size: 24px;
+    border: 1px solid rgba(0, 78, 255, 0.3);
+    background-color: rgba(54, 54, 54, 0.9);
+}
+
+
+}
+
+
+
+
+
+
+
+
+
+
