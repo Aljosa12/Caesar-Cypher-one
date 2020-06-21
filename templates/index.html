@@ -5,6 +5,8 @@
 
         <link rel= "stylesheet" type= "text/css" href= "{{ url_for('static',filename='styles/style.css') }}">
 
+        <link href="https://fonts.googleapis.com/css2?family=Dancing+Script&display=swap" rel="stylesheet">
+        <link href="https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;1,300&display=swap" rel="stylesheet">
         <meta charset="UTF-8">
     </head>
 
@@ -12,18 +14,20 @@
     <header>
 
         <div class="parent">
-            <h1 class="naslov">The Caesar Cypher</h1>
-            <h2>(English alphabet)</h2>
+            <h1 class="naslov">THE CAESAR CYPHER</h1>
+            <h2>(ENGLISH ALPHABET)</h2>
         </div>
 
             <div class="master-div">
                 <div class="form">
-                <form method="post" action="/">
-
-                    <textarea type="text" name="text" class="prompt" placeholder="input some text"></textarea>
-                          <button type="submit" class="btn-submit">Submit</button>
-                </form>
+                    <form method="post" action="/">
+                        <div class="div-prompt">
+                            <textarea type="text" class="prompt" name="text" onfocus="this.placeholder = ''" onblur="this.placeholder = 'enter your text'" placeholder="input some text"></textarea>
+                        </div>
+                            <button class="btn-submit" type="submit">Submit</button>
+                    </form>
                 </div>
+
                 <textarea type="text" name="text" class="text-area">{{ code }}</textarea>
             </div>
 
